@@ -1,0 +1,51 @@
+# Системные файлы
+.DS_Store         # macOS
+Thumbs.db        # Windows
+
+# Пакеты и зависимости
+__pycache__/     # Кэшированные файлы Python
+*.py[cod]        # Кэшированные байт-коды
+*.pyo             # Оптимизированные файлы
+*.pyd             # Расширения Python для Windows
+
+# Виртуальные окружения
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Файлы конфигурации
+*.ini
+*.log
+*.sqlite3
+
+# Установленные зависимости
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE и редакторы
+.vscode/         # VS Code
+.idea/           # JetBrains
+*.sublime-project # Sublime Text
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Файлы среды разработки
+*.coverage       # Файлы покрытия
+.coverage.*
+nosetests.xml    # Файлы тестирования
+*.test           # Файлы тестов
+
+# Файлы 
+*.json
+staff/
+temp/
+бекап
+*.xls
+*.txt
+__pycache__/
